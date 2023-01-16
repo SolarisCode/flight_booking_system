@@ -104,6 +104,7 @@ class Flight:
                 if passenger is not None:
                     yield (passenger, f"{row}{letter}")
 
+
 class Aircraft:
     
     def __init__(self, registration):
